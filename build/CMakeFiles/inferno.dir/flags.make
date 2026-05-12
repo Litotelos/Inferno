@@ -4,7 +4,15 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/litotelos/Projects/Inferno/src -I/home/litotelos/Projects/Inferno/src/Socket
+CXX_INCLUDES = -I/home/litotelos/Projects/Inferno/src -I/home/litotelos/Projects/Inferno/src/Socket -I/home/litotelos/Projects/Inferno/src/Router -I/home/litotelos/Projects/Inferno/src/Pch
 
 CXX_FLAGS = -std=gnu++20
+
+# PCH options: CMakeFiles/inferno.dir/cmake_pch.hxx.gch_OPTIONS = -Winvalid-pch;-x;c++-header;-include;/home/litotelos/Projects/Inferno/build/CMakeFiles/inferno.dir/cmake_pch.hxx
+
+# PCH options: CMakeFiles/inferno.dir/src/Router/Router.cpp.o_OPTIONS = -Winvalid-pch;-include;/home/litotelos/Projects/Inferno/build/CMakeFiles/inferno.dir/cmake_pch.hxx
+
+# PCH options: CMakeFiles/inferno.dir/src/Socket/Socket.cpp.o_OPTIONS = -Winvalid-pch;-include;/home/litotelos/Projects/Inferno/build/CMakeFiles/inferno.dir/cmake_pch.hxx
+
+# PCH options: CMakeFiles/inferno.dir/src/main.cpp.o_OPTIONS = -Winvalid-pch;-include;/home/litotelos/Projects/Inferno/build/CMakeFiles/inferno.dir/cmake_pch.hxx
 

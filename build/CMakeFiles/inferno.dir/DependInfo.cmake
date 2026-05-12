@@ -8,9 +8,14 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/litotelos/Projects/Inferno/src/Router.cpp" "CMakeFiles/inferno.dir/src/Router.cpp.o" "gcc" "CMakeFiles/inferno.dir/src/Router.cpp.o.d"
+  "/home/litotelos/Projects/Inferno/build/CMakeFiles/inferno.dir/cmake_pch.hxx.cxx" "CMakeFiles/inferno.dir/cmake_pch.hxx.gch" "gcc" "CMakeFiles/inferno.dir/cmake_pch.hxx.gch.d"
+  "/home/litotelos/Projects/Inferno/build/CMakeFiles/inferno.dir/cmake_pch.hxx" "CMakeFiles/inferno.dir/cmake_pch.hxx.gch" "gcc" "CMakeFiles/inferno.dir/cmake_pch.hxx.gch.d"
+  "/home/litotelos/Projects/Inferno/src/Router/Router.cpp" "CMakeFiles/inferno.dir/src/Router/Router.cpp.o" "gcc" "CMakeFiles/inferno.dir/src/Router/Router.cpp.o.d"
+  "/home/litotelos/Projects/Inferno/build/CMakeFiles/inferno.dir/cmake_pch.hxx" "CMakeFiles/inferno.dir/src/Router/Router.cpp.o" "gcc" "CMakeFiles/inferno.dir/src/Router/Router.cpp.o.d"
   "/home/litotelos/Projects/Inferno/src/Socket/Socket.cpp" "CMakeFiles/inferno.dir/src/Socket/Socket.cpp.o" "gcc" "CMakeFiles/inferno.dir/src/Socket/Socket.cpp.o.d"
+  "/home/litotelos/Projects/Inferno/build/CMakeFiles/inferno.dir/cmake_pch.hxx" "CMakeFiles/inferno.dir/src/Socket/Socket.cpp.o" "gcc" "CMakeFiles/inferno.dir/src/Socket/Socket.cpp.o.d"
   "/home/litotelos/Projects/Inferno/src/main.cpp" "CMakeFiles/inferno.dir/src/main.cpp.o" "gcc" "CMakeFiles/inferno.dir/src/main.cpp.o.d"
+  "/home/litotelos/Projects/Inferno/build/CMakeFiles/inferno.dir/cmake_pch.hxx" "CMakeFiles/inferno.dir/src/main.cpp.o" "gcc" "CMakeFiles/inferno.dir/src/main.cpp.o.d"
   "" "inferno" "gcc" "CMakeFiles/inferno.dir/link.d"
   )
 

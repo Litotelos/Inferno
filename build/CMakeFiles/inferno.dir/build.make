@@ -72,64 +72,86 @@ include CMakeFiles/inferno.dir/flags.make
 CMakeFiles/inferno.dir/codegen:
 .PHONY : CMakeFiles/inferno.dir/codegen
 
-CMakeFiles/inferno.dir/src/Router.cpp.o: CMakeFiles/inferno.dir/flags.make
-CMakeFiles/inferno.dir/src/Router.cpp.o: /home/litotelos/Projects/Inferno/src/Router.cpp
-CMakeFiles/inferno.dir/src/Router.cpp.o: CMakeFiles/inferno.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/litotelos/Projects/Inferno/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/inferno.dir/src/Router.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/inferno.dir/src/Router.cpp.o -MF CMakeFiles/inferno.dir/src/Router.cpp.o.d -o CMakeFiles/inferno.dir/src/Router.cpp.o -c /home/litotelos/Projects/Inferno/src/Router.cpp
+CMakeFiles/inferno.dir/cmake_pch.hxx.gch: CMakeFiles/inferno.dir/flags.make
+CMakeFiles/inferno.dir/cmake_pch.hxx.gch: CMakeFiles/inferno.dir/cmake_pch.hxx.cxx
+CMakeFiles/inferno.dir/cmake_pch.hxx.gch: CMakeFiles/inferno.dir/cmake_pch.hxx
+CMakeFiles/inferno.dir/cmake_pch.hxx.gch: CMakeFiles/inferno.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/litotelos/Projects/Inferno/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/inferno.dir/cmake_pch.hxx.gch"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -x c++-header -include /home/litotelos/Projects/Inferno/build/CMakeFiles/inferno.dir/cmake_pch.hxx -MD -MT CMakeFiles/inferno.dir/cmake_pch.hxx.gch -MF CMakeFiles/inferno.dir/cmake_pch.hxx.gch.d -o CMakeFiles/inferno.dir/cmake_pch.hxx.gch -c /home/litotelos/Projects/Inferno/build/CMakeFiles/inferno.dir/cmake_pch.hxx.cxx
 
-CMakeFiles/inferno.dir/src/Router.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/inferno.dir/src/Router.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/litotelos/Projects/Inferno/src/Router.cpp > CMakeFiles/inferno.dir/src/Router.cpp.i
+CMakeFiles/inferno.dir/cmake_pch.hxx.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/inferno.dir/cmake_pch.hxx.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -x c++-header -include /home/litotelos/Projects/Inferno/build/CMakeFiles/inferno.dir/cmake_pch.hxx -E /home/litotelos/Projects/Inferno/build/CMakeFiles/inferno.dir/cmake_pch.hxx.cxx > CMakeFiles/inferno.dir/cmake_pch.hxx.i
 
-CMakeFiles/inferno.dir/src/Router.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/inferno.dir/src/Router.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/litotelos/Projects/Inferno/src/Router.cpp -o CMakeFiles/inferno.dir/src/Router.cpp.s
+CMakeFiles/inferno.dir/cmake_pch.hxx.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/inferno.dir/cmake_pch.hxx.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -x c++-header -include /home/litotelos/Projects/Inferno/build/CMakeFiles/inferno.dir/cmake_pch.hxx -S /home/litotelos/Projects/Inferno/build/CMakeFiles/inferno.dir/cmake_pch.hxx.cxx -o CMakeFiles/inferno.dir/cmake_pch.hxx.s
+
+CMakeFiles/inferno.dir/src/Router/Router.cpp.o: CMakeFiles/inferno.dir/flags.make
+CMakeFiles/inferno.dir/src/Router/Router.cpp.o: /home/litotelos/Projects/Inferno/src/Router/Router.cpp
+CMakeFiles/inferno.dir/src/Router/Router.cpp.o: CMakeFiles/inferno.dir/cmake_pch.hxx
+CMakeFiles/inferno.dir/src/Router/Router.cpp.o: CMakeFiles/inferno.dir/cmake_pch.hxx.gch
+CMakeFiles/inferno.dir/src/Router/Router.cpp.o: CMakeFiles/inferno.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/litotelos/Projects/Inferno/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/inferno.dir/src/Router/Router.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/litotelos/Projects/Inferno/build/CMakeFiles/inferno.dir/cmake_pch.hxx -MD -MT CMakeFiles/inferno.dir/src/Router/Router.cpp.o -MF CMakeFiles/inferno.dir/src/Router/Router.cpp.o.d -o CMakeFiles/inferno.dir/src/Router/Router.cpp.o -c /home/litotelos/Projects/Inferno/src/Router/Router.cpp
+
+CMakeFiles/inferno.dir/src/Router/Router.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/inferno.dir/src/Router/Router.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/litotelos/Projects/Inferno/build/CMakeFiles/inferno.dir/cmake_pch.hxx -E /home/litotelos/Projects/Inferno/src/Router/Router.cpp > CMakeFiles/inferno.dir/src/Router/Router.cpp.i
+
+CMakeFiles/inferno.dir/src/Router/Router.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/inferno.dir/src/Router/Router.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/litotelos/Projects/Inferno/build/CMakeFiles/inferno.dir/cmake_pch.hxx -S /home/litotelos/Projects/Inferno/src/Router/Router.cpp -o CMakeFiles/inferno.dir/src/Router/Router.cpp.s
 
 CMakeFiles/inferno.dir/src/Socket/Socket.cpp.o: CMakeFiles/inferno.dir/flags.make
 CMakeFiles/inferno.dir/src/Socket/Socket.cpp.o: /home/litotelos/Projects/Inferno/src/Socket/Socket.cpp
+CMakeFiles/inferno.dir/src/Socket/Socket.cpp.o: CMakeFiles/inferno.dir/cmake_pch.hxx
+CMakeFiles/inferno.dir/src/Socket/Socket.cpp.o: CMakeFiles/inferno.dir/cmake_pch.hxx.gch
 CMakeFiles/inferno.dir/src/Socket/Socket.cpp.o: CMakeFiles/inferno.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/litotelos/Projects/Inferno/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/inferno.dir/src/Socket/Socket.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/inferno.dir/src/Socket/Socket.cpp.o -MF CMakeFiles/inferno.dir/src/Socket/Socket.cpp.o.d -o CMakeFiles/inferno.dir/src/Socket/Socket.cpp.o -c /home/litotelos/Projects/Inferno/src/Socket/Socket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/litotelos/Projects/Inferno/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/inferno.dir/src/Socket/Socket.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/litotelos/Projects/Inferno/build/CMakeFiles/inferno.dir/cmake_pch.hxx -MD -MT CMakeFiles/inferno.dir/src/Socket/Socket.cpp.o -MF CMakeFiles/inferno.dir/src/Socket/Socket.cpp.o.d -o CMakeFiles/inferno.dir/src/Socket/Socket.cpp.o -c /home/litotelos/Projects/Inferno/src/Socket/Socket.cpp
 
 CMakeFiles/inferno.dir/src/Socket/Socket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/inferno.dir/src/Socket/Socket.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/litotelos/Projects/Inferno/src/Socket/Socket.cpp > CMakeFiles/inferno.dir/src/Socket/Socket.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/litotelos/Projects/Inferno/build/CMakeFiles/inferno.dir/cmake_pch.hxx -E /home/litotelos/Projects/Inferno/src/Socket/Socket.cpp > CMakeFiles/inferno.dir/src/Socket/Socket.cpp.i
 
 CMakeFiles/inferno.dir/src/Socket/Socket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/inferno.dir/src/Socket/Socket.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/litotelos/Projects/Inferno/src/Socket/Socket.cpp -o CMakeFiles/inferno.dir/src/Socket/Socket.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/litotelos/Projects/Inferno/build/CMakeFiles/inferno.dir/cmake_pch.hxx -S /home/litotelos/Projects/Inferno/src/Socket/Socket.cpp -o CMakeFiles/inferno.dir/src/Socket/Socket.cpp.s
 
 CMakeFiles/inferno.dir/src/main.cpp.o: CMakeFiles/inferno.dir/flags.make
 CMakeFiles/inferno.dir/src/main.cpp.o: /home/litotelos/Projects/Inferno/src/main.cpp
+CMakeFiles/inferno.dir/src/main.cpp.o: CMakeFiles/inferno.dir/cmake_pch.hxx
+CMakeFiles/inferno.dir/src/main.cpp.o: CMakeFiles/inferno.dir/cmake_pch.hxx.gch
 CMakeFiles/inferno.dir/src/main.cpp.o: CMakeFiles/inferno.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/litotelos/Projects/Inferno/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/inferno.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/inferno.dir/src/main.cpp.o -MF CMakeFiles/inferno.dir/src/main.cpp.o.d -o CMakeFiles/inferno.dir/src/main.cpp.o -c /home/litotelos/Projects/Inferno/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/litotelos/Projects/Inferno/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/inferno.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/litotelos/Projects/Inferno/build/CMakeFiles/inferno.dir/cmake_pch.hxx -MD -MT CMakeFiles/inferno.dir/src/main.cpp.o -MF CMakeFiles/inferno.dir/src/main.cpp.o.d -o CMakeFiles/inferno.dir/src/main.cpp.o -c /home/litotelos/Projects/Inferno/src/main.cpp
 
 CMakeFiles/inferno.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/inferno.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/litotelos/Projects/Inferno/src/main.cpp > CMakeFiles/inferno.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/litotelos/Projects/Inferno/build/CMakeFiles/inferno.dir/cmake_pch.hxx -E /home/litotelos/Projects/Inferno/src/main.cpp > CMakeFiles/inferno.dir/src/main.cpp.i
 
 CMakeFiles/inferno.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/inferno.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/litotelos/Projects/Inferno/src/main.cpp -o CMakeFiles/inferno.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Winvalid-pch -include /home/litotelos/Projects/Inferno/build/CMakeFiles/inferno.dir/cmake_pch.hxx -S /home/litotelos/Projects/Inferno/src/main.cpp -o CMakeFiles/inferno.dir/src/main.cpp.s
 
 # Object files for target inferno
 inferno_OBJECTS = \
-"CMakeFiles/inferno.dir/src/Router.cpp.o" \
+"CMakeFiles/inferno.dir/src/Router/Router.cpp.o" \
 "CMakeFiles/inferno.dir/src/Socket/Socket.cpp.o" \
 "CMakeFiles/inferno.dir/src/main.cpp.o"
 
 # External object files for target inferno
 inferno_EXTERNAL_OBJECTS =
 
-inferno: CMakeFiles/inferno.dir/src/Router.cpp.o
+inferno: CMakeFiles/inferno.dir/cmake_pch.hxx.gch
+inferno: CMakeFiles/inferno.dir/src/Router/Router.cpp.o
 inferno: CMakeFiles/inferno.dir/src/Socket/Socket.cpp.o
 inferno: CMakeFiles/inferno.dir/src/main.cpp.o
 inferno: CMakeFiles/inferno.dir/build.make
 inferno: CMakeFiles/inferno.dir/compiler_depend.ts
 inferno: CMakeFiles/inferno.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/litotelos/Projects/Inferno/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable inferno"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/litotelos/Projects/Inferno/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable inferno"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/inferno.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

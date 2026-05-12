@@ -136,29 +136,44 @@ inferno/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/inferno.dir/build.make CMakeFiles/inferno.dir/build
 .PHONY : inferno/fast
 
-src/Router.o: src/Router.cpp.o
-.PHONY : src/Router.o
-
 # target to build an object file
-src/Router.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/inferno.dir/build.make CMakeFiles/inferno.dir/src/Router.cpp.o
-.PHONY : src/Router.cpp.o
-
-src/Router.i: src/Router.cpp.i
-.PHONY : src/Router.i
+cmake_pch.hxx.gch:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/inferno.dir/build.make CMakeFiles/inferno.dir/cmake_pch.hxx.gch
+.PHONY : cmake_pch.hxx.gch
 
 # target to preprocess a source file
-src/Router.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/inferno.dir/build.make CMakeFiles/inferno.dir/src/Router.cpp.i
-.PHONY : src/Router.cpp.i
-
-src/Router.s: src/Router.cpp.s
-.PHONY : src/Router.s
+cmake_pch.hxx.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/inferno.dir/build.make CMakeFiles/inferno.dir/cmake_pch.hxx.i
+.PHONY : cmake_pch.hxx.i
 
 # target to generate assembly for a file
-src/Router.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/inferno.dir/build.make CMakeFiles/inferno.dir/src/Router.cpp.s
-.PHONY : src/Router.cpp.s
+cmake_pch.hxx.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/inferno.dir/build.make CMakeFiles/inferno.dir/cmake_pch.hxx.s
+.PHONY : cmake_pch.hxx.s
+
+src/Router/Router.o: src/Router/Router.cpp.o
+.PHONY : src/Router/Router.o
+
+# target to build an object file
+src/Router/Router.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/inferno.dir/build.make CMakeFiles/inferno.dir/src/Router/Router.cpp.o
+.PHONY : src/Router/Router.cpp.o
+
+src/Router/Router.i: src/Router/Router.cpp.i
+.PHONY : src/Router/Router.i
+
+# target to preprocess a source file
+src/Router/Router.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/inferno.dir/build.make CMakeFiles/inferno.dir/src/Router/Router.cpp.i
+.PHONY : src/Router/Router.cpp.i
+
+src/Router/Router.s: src/Router/Router.cpp.s
+.PHONY : src/Router/Router.s
+
+# target to generate assembly for a file
+src/Router/Router.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/inferno.dir/build.make CMakeFiles/inferno.dir/src/Router/Router.cpp.s
+.PHONY : src/Router/Router.cpp.s
 
 src/Socket/Socket.o: src/Socket/Socket.cpp.o
 .PHONY : src/Socket/Socket.o
@@ -218,9 +233,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... inferno"
-	@echo "... src/Router.o"
-	@echo "... src/Router.i"
-	@echo "... src/Router.s"
+	@echo "... cmake_pch.hxx.gch"
+	@echo "... cmake_pch.hxx.i"
+	@echo "... cmake_pch.hxx.s"
+	@echo "... src/Router/Router.o"
+	@echo "... src/Router/Router.i"
+	@echo "... src/Router/Router.s"
 	@echo "... src/Socket/Socket.o"
 	@echo "... src/Socket/Socket.i"
 	@echo "... src/Socket/Socket.s"

@@ -1,9 +1,6 @@
+#include "pch.hpp"
 #include "Socket.hpp"
 #include "Packet.hpp"
-#include <sys/socket.h>
-#include <linux/if_packet.h>
-#include <net/if.h>
-#include <iostream>
 
 int Create_Socket(){
 int Socket = socket(AF_PACKET, SOCK_RAW, htons(ETH_P_IP));

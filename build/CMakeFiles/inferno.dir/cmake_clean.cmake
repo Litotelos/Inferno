@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/inferno.dir/link.d"
-  "CMakeFiles/inferno.dir/src/Router.cpp.o"
-  "CMakeFiles/inferno.dir/src/Router.cpp.o.d"
+  "CMakeFiles/inferno.dir/cmake_pch.hxx.gch"
+  "CMakeFiles/inferno.dir/cmake_pch.hxx.gch.d"
+  "CMakeFiles/inferno.dir/src/Router/Router.cpp.o"
+  "CMakeFiles/inferno.dir/src/Router/Router.cpp.o.d"
   "CMakeFiles/inferno.dir/src/Socket/Socket.cpp.o"
   "CMakeFiles/inferno.dir/src/Socket/Socket.cpp.o.d"
   "CMakeFiles/inferno.dir/src/main.cpp.o"

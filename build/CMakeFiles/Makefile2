@@ -85,12 +85,12 @@ clean: CMakeFiles/inferno.dir/clean
 CMakeFiles/inferno.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/inferno.dir/build.make CMakeFiles/inferno.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/inferno.dir/build.make CMakeFiles/inferno.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/litotelos/Projects/Inferno/build/CMakeFiles --progress-num=1,2,3,4 "Built target inferno"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/litotelos/Projects/Inferno/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target inferno"
 .PHONY : CMakeFiles/inferno.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/inferno.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/litotelos/Projects/Inferno/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/litotelos/Projects/Inferno/build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/inferno.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/litotelos/Projects/Inferno/build/CMakeFiles 0
 .PHONY : CMakeFiles/inferno.dir/rule
@@ -102,7 +102,7 @@ inferno: CMakeFiles/inferno.dir/rule
 # codegen rule for target.
 CMakeFiles/inferno.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/inferno.dir/build.make CMakeFiles/inferno.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/litotelos/Projects/Inferno/build/CMakeFiles --progress-num=1,2,3,4 "Finished codegen for target inferno"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/litotelos/Projects/Inferno/build/CMakeFiles --progress-num=1,2,3,4,5 "Finished codegen for target inferno"
 .PHONY : CMakeFiles/inferno.dir/codegen
 
 # clean rule for target.

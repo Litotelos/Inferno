@@ -1,7 +1,4 @@
 #pragma once
-#include <sys/socket.h>
-#include <netinet/in.h>
-#include <linux/if_packet.h>
 
 struct Packet {
     unsigned short Packet_Family = AF_PACKET;
