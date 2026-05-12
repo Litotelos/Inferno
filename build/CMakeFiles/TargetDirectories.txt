@@ -1,0 +1,3 @@
+/home/litotelos/Projects/Inferno/build/CMakeFiles/inferno.dir
+/home/litotelos/Projects/Inferno/build/CMakeFiles/edit_cache.dir
+/home/litotelos/Projects/Inferno/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/inferno.dir/link.d CMakeFiles/inferno.dir/src/Router.cpp.o CMakeFiles/inferno.dir/src/Socket/Socket.cpp.o CMakeFiles/inferno.dir/src/main.cpp.o -o inferno
